@@ -27,6 +27,13 @@ a {
   color: var(--text-color);
 }
 
+button {
+  background-color: white;
+  cursor: pointer;
+  border: none;
+  outline: none;
+}
+
 /* navbar */
 .navbar {
   margin-left: 20px;
@@ -80,12 +87,17 @@ a {
 }
 .navbar__links li {
   padding: 8px 8px;
-  font-size: 24px;
   color: var(--text-color);
 }
 
 .navbar__links li a {
-  font-size: 18px;
+  font-size: 24px;
+  color: var(--text-color);
+}
+
+.chat_icon,
+.github_icon {
+  font-size: 24px;
   color: var(--text-color);
 }
 
