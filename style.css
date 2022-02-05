@@ -1,0 +1,227 @@
+/* Add your CSS here */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Overpass', sans-serif;
+  color: var(--text-color);
+}
+
+:root {
+  --icon-color: #00A82D;
+  --text-color: #4A4A55;
+  --color-red: #FF3E00;
+  --color-blue: #40B3FF;
+  --color-grey: #676778
+
+}
+
+input {
+  border: none;
+}
+
+input:focus {
+  outline: none;
+}
+
+a {
+  text-decoration: none;
+  color: var(--text-color)
+}
+
+.navbar {
+  margin-left: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px 12px;
+  color: var(--text-color);
+}
+
+.logo_text {
+  font-size: 34px;
+  position: absolute;
+  top: 35px;
+  font-weight: bolder;
+  color: var(--text-color)
+}
+
+.svelte_logo_text {
+  position: relative;
+}
+.navbar__logo  {
+  font-size: 20px;
+}
+
+.navbar__logo i {
+  color: #00A82D
+}
+
+.navbar__menu {
+  list-style: none;
+  display: flex;
+  padding-left: 0px;
+  font-size: 24px;
+  color:  var(--text-color);
+}
+
+.navbar__menu li {
+  padding: 8px 12px;
+  color: var(--text-color);
+}
+
+.navbar__links {
+  list-style: none;
+  display: flex;
+  font-size: 15px
+}
+
+
+.navbar__links a {
+  font-size: 20px;
+}
+.navbar__links li {
+  padding: 8px 8px;
+  font-size: 24px;
+  color: var(--text-color);
+}
+
+.navbar__links li a {
+  font-size: 18px;
+  color: var(--text-color)
+}
+
+.text {
+  position: absolute;
+  top: 0px;
+  left: 20px;
+  font-size: 100px;
+}
+
+
+.text_two {
+  position: absolute;
+  top: 180px;
+  left: 18px;
+  font-size: 40px;
+  font-weight: lighter;
+  color: var(--text-color);
+}
+
+.text__body {
+  position: relative;
+}
+
+.work__details {
+  position: absolute;
+  top: 400px;
+  margin-left: 140px;
+  margin-right: 140px;
+}
+.work__projects {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+}
+
+.project__description {
+  height: 55vh;
+  color: white;
+  padding: 30px;
+  padding-top: 50px;
+  padding-bottom: 30px;
+  border: 1px solid none;
+  background-color: red;
+  border-radius: 10px;
+  margin-left: 20px;
+}
+
+.card_one {
+  background-color: var(--color-red);
+}
+
+.card_two {
+  background-color: var(--color-blue)
+}
+
+.card_three {
+  background-color: var(--color-grey);
+}
+
+.title {
+  font-size: 47px;
+}
+
+.description {
+  font-size: 30px;
+  font-weight: lighter;
+}
+
+.input__box{
+  position: relative;
+}
+
+.arrow__icon {
+  position: absolute;
+  bottom: 20px;
+  right: 90px;
+  color: var(--text-color);
+  font-weight: 200px;
+}
+
+.learn_more_input {
+  position: relative;
+}
+.input {
+  padding: 20px;
+  width: 80%;
+  border-radius: 10px;
+  font-size: 20px;
+}
+.logo_img {
+  background-size: 100px;
+  margin: 0;
+  /* top: 1em;
+  right: 30%;
+  bottom: 0;
+  left: 30%;
+  margin: 0
+  background-size: cover;
+  z-index: 1;
+}
+
+
+
+.logo_img {
+  background-image: center/cover no-repeat
+    url(imgs/logo.JPG)
+}
+.download__btn {
+  padding: 10px;
+  color: #00A82D;
+  border: solid 1px #00A82D;
+  border-radius: 10px
+}
+
+/* .text__body {
+  padding-top: 20px;
+  padding-left: 30px;
+  text-align: center;
+  font-size: 28px;
+} */
+
+.text__body h1 {
+  font-size: 28px;
+}
+
+.signup__btn {
+  font-size: 20px;
+  padding: 13px;
+  position: absolute;
+  left: 50%;
+  background-color: #00A82D;
+  color: white;
+  
+
+  
+}
